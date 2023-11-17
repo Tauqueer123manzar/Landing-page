@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+  }
+  
+  body {
+    background-color:lightseagreen ;
+    font-family: sans-serif;
+  }
+  
+  /* header */
+  #header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 23px 20px 20px 23px;
+    /*background-image: url('http://www.coretan-mambang.my/wp-content/uploads/2020/06/960x0.png');*/
+    background-color: #797D7F;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 25px;
+    box-sizing: border-box;
+  }
+  
+  @media (max-width: 315px){
+    body {
+      background-color: #d5dbdb;
+    }
+    #header {
+      background-color: #aab7b8;
+      border-bottom: #C4C7C7;
+    }
+  }
+  
+  #header-img {
+    width: 10%;
+  }
+  
+  #nav-bar {
+    flex-grow: 0.5;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    position:relative;
+    top: 0;
+  }
+  
+  .nav-link {
+    overflow: hidden;
+    color: black;
+    text-decoration: none;
+    margin: 5px;
+  }
+  
+  .nav-link:hover{
+    color: #ecf0f1;
+  }
+  
+  /* main */
+  #main {
+    margin-top: 150px;
+    text-align: center;
+  }
+  
+  /* introduction */
+  #introduction {
+    margin: 0;
+    padding: 10px 50px;
+    background-color: #CACFD2;
+  }
+  
+  #introduction p, img {
+    margin: 1px;
+    padding: 10px 15px;
+  }
+  
+  /* overview */
+  #overview {
+    margin: 20px;
+    padding: 10px 20px;
+  }
+  
+  /* range */
+  #range {
+    margin: 20px;
+    padding: 10px 120px;
+    display: flex;
+  }
+  
+  .range {
+    flex: 1;
+    padding: 30px;
+    background-color: #ABB2B9;
+  }
+  
+  .range:first-child {
+    margin-right: 20px;
+  }
+  
+  #range p, button {
+    margin: 5px;
+    padding: 10px 15px;
+  }
+  
+  /* form */
+  #div-form {
+    margin: 0;
+    padding: 30px 20px;
+    background-color: #ABB2B9;
+  }
+  
+  #div-form p, input {
+    margin: 1px;
+    padding: 10px 15px;
+  }
+  
+  
+  /* footer */
+  #footer {
+    margin: 0;
+    padding: 20px 20px;
+    text-align: center;
+    background-color: #797D7F;
+    color: #ecf0f1;
+  }
+  
